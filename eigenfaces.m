@@ -1,6 +1,5 @@
 %%%% Eigenfaces Demo
 %% Generate the eigenfaces and run a demo.
-%
 clear ; close all; clc
 
 fprintf('*** Eigenfaces ***\n');

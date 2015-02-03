@@ -17,7 +17,8 @@ Sigma = (1/m) * X' * X;
 U = U(:,ind);
 L = diag(L);
 
-% NOTE: could use Singular Value Decomposition instead:
+% NOTE: Could use Singular Value Decomposition instead of the `eig` function
+%   as follows (leaving code here and commented out for educational purposes):
 %[U,S,V] = svd(Sigma);
 
 end
